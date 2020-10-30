@@ -62,28 +62,28 @@ Due to the high cost and for return on investment the standard significance leve
 
 ### Data Set
 
-| Slickwater and Gel |           |  | Slickwater and Hybrid |          |  | Gel and Hybrid |           |
-|--------------------|-----------|--|-----------------------|----------|--|----------------|-----------|
-| Slickwater Wins    | 8154753.5 |  | Slickwater Wins       | 2176643  |  | Gel Wins       | 1124037.5 |
-| Gel Wins           | 4977533.5 |  | Hybrid Wins           | 2833288  |  | Hybrid Wins    | 2445815.5 |
-| p-value            | 3.54E-70  |  | p-value               | 6.15E-12 |  | p-value        | 1.60E-77  |
+| Slickwater and Gel |           | Slickwater and Hybrid |          | Gel and Hybrid |           |
+|--------------------|-----------|-----------------------|----------|----------------|-----------|
+| Slickwater Wins    | 8154753.5 | Slickwater Wins       | 2176643  | Gel Wins       | 1124037.5 |
+| Gel Wins           | 4977533.5 | Hybrid Wins           | 2833288  | Hybrid Wins    | 2445815.5 |
+| p-value            | 3.54E-70  | p-value               | 6.15E-12 | p-value        | 1.60E-77  |
 
 So this processed was used to make sure that each formation would produce the same results.
 
 ### Niobrara
-| Slickwater and Gel |          |  | Slickwater and Hybrid |          |  | Gel and Hybrid |          |
-|--------------------|----------|--|-----------------------|----------|--|----------------|----------|
-| Slickwater Wins    | 5034804  |  | Slickwater Wins       | 1335229  |  | Gel Wins       | 768681   |
-| Gel Wins           | 3009388  |  | Hybrid Wins           | 169859   |  | Hybrid Wins    | 1650663  |
-| p-value            | 3.54E-60 |  | p-value               | 3.55E-08 |  | p-value        | 4.79E-62 |
+| Slickwater and Gel |          | Slickwater and Hybrid |          | Gel and Hybrid |          |
+|--------------------|----------|-----------------------|----------|----------------|----------|
+| Slickwater Wins    | 5034804  | Slickwater Wins       | 1335229  | Gel Wins       | 768681   |
+| Gel Wins           | 3009388  | Hybrid Wins           | 169859   | Hybrid Wins    | 1650663  |
+| p-value            | 3.54E-60 | p-value               | 3.55E-08 | p-value        | 4.79E-62 |
 
 
 ### Codell
-| Slickwater and Gel |          |  | Slickwater and Hybrid |          |  | Gel and Hybrid |          |
-|--------------------|----------|--|-----------------------|----------|--|----------------|----------|
-| Slickwater Wins    | 347242   |  | Slickwater Wins       | 95360.5  |  | Gel Wins       | 32745.5  |
-| Gel Wins           | 228696   |  | Hybrid Wins           | 139693.5 |  | Hybrid Wins    | 76341.5  |
-| p-value            | 2.12E-11 |  | p-value               | 1.37E-05 |  | p-value        | 2.51E-17 |
+| Slickwater and Gel |          | Slickwater and Hybrid |          | Gel and Hybrid |          |
+|--------------------|----------|-----------------------|----------|----------------|----------|
+| Slickwater Wins    | 347242   | Slickwater Wins       | 95360.5  | Gel Wins       | 32745.5  |
+| Gel Wins           | 228696   | Hybrid Wins           | 139693.5 | Hybrid Wins    | 76341.5  |
+| p-value            | 2.12E-11 | p-value               | 1.37E-05 | p-value        | 2.51E-17 |
 
 <br/>
 <br/>
