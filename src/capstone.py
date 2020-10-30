@@ -49,7 +49,7 @@ def line_plt(ax, x, y, color, label):
     '''
     ax.plot(x, y, linewidth=2, color=color, label=label)
 
-    def drop_na_column(df, lst):
+def drop_na_column(df, lst):
     '''Removes rows with null or n/a values from a dataframe
 
     Parameters
@@ -90,8 +90,6 @@ def fix_fluid_types(df, lst1, lst2):
     -------
     returns a dataframe
     '''    
-    
-    
     for i in range(1,6):
         df = df.na.replace(wrong_fluid, right_fluid, 'fluid_type'+str(i))
     return df
@@ -126,7 +124,6 @@ def clean_fluid_type(df, fluid_sys):
     -------
     returns df
     '''
-    
     fluid_vol = 'FluidVol'
     fluid_type = 'fluid_type'
     lowcase_fluid = fluid_sys.lower() + "_collect"
@@ -260,6 +257,7 @@ if __name__ == '__main__':
                         WHERE state = "COLORADO" AND formation = 'CODELL'
                         ORDER BY day180 DESC
                         """)
+
     codell_df = drop_na_column(codell_df, ["TotalProppant"])
     codell_df.show()
 
@@ -436,6 +434,7 @@ if __name__ == '__main__':
                         WHERE slickwater_collect > 0
                         ORDER BY day545 DESC
                         """)
+
     print(slick_production_df.count())
 
     gel_production_df = spark.sql("""
@@ -447,6 +446,7 @@ if __name__ == '__main__':
                         WHERE gel_collect > 0
                         ORDER BY day545 DESC
                         """)
+
     print(gel_production_df.count())
 
     hybrid_production_df = spark.sql("""
@@ -458,6 +458,7 @@ if __name__ == '__main__':
                         WHERE hybrid_collect > 0
                         ORDER BY day545 DESC
                         """)
+
     print(hybrid_production_df.count())
 
     slick_production = slick_production_df.rdd.map(lambda x: x.day545).collect()
@@ -610,3 +611,4 @@ if __name__ == '__main__':
     print("Number of Hybrid Wins: {}".format(hybrid_wins))
     res = stats.mannwhitneyu(gel_prod_cod, hybrid_prod_cod, alternative="two-sided")
     print("p-value for Gel = Hybrid: {}".format(res.pvalue))
+
