@@ -68,9 +68,9 @@ Due to the high cost and for return on investment the standard significance leve
 | Gel Wins           | 4977533.5 | Hybrid Wins           | 2833288  | Hybrid Wins    | 2445815.5 |
 | p-value            | 3.54E-70  | p-value               | 6.15E-12 | p-value        | 1.60E-77  |
 
-So this processed was used to make sure that each formation would produce the same results.
 
 ### Niobrara
+
 | Slickwater and Gel |          | Slickwater and Hybrid |          | Gel and Hybrid |          |
 |--------------------|----------|-----------------------|----------|----------------|----------|
 | Slickwater Wins    | 5034804  | Slickwater Wins       | 1335229  | Gel Wins       | 768681   |
@@ -79,6 +79,7 @@ So this processed was used to make sure that each formation would produce the sa
 
 
 ### Codell
+
 | Slickwater and Gel |          | Slickwater and Hybrid |          | Gel and Hybrid |          |
 |--------------------|----------|-----------------------|----------|----------------|----------|
 | Slickwater Wins    | 347242   | Slickwater Wins       | 95360.5  | Gel Wins       | 32745.5  |
