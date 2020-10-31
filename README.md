@@ -1,8 +1,6 @@
 # Oil Production of Fluid Systems
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
-
-##
+------------------------
 
 ## Background and Motivation
 
@@ -47,16 +45,17 @@ Able to compare production results from Niobrara and Codell formation.
 
 ## Hypothesis Testing
 
-H<sub>o</sub>:<br/>
+### <i>H<sub>o</sub>:<br/></i>
 * Fluid A Production = Fluid B Production
 
-H<sub>A</sub>:<br/>
-* Fluid A Production > Fluid B Production<br/>
-* Fluid A Production < Fluid B Production
+### <i>H<sub>A</sub>:<br/></i>
+* Fluid A Production != Fluid B Production<br/><br/>
+
+&alpha;<sub>&beta;</sub> = 0.003
 <br/><br/>
 
 
-Due to the high cost and for return on investment the standard significance level of 0.05 would be to great so a 0.01 was used. A comparison of the three fluid designs was conducted using the Mann-Whittney U Test. First, was to compare the wins for each fluid system then using scipy to calculate the p-value. Due to the multiple comparisons, the Bonferroni Correction was applied for a new alpha of 0.003.
+Produciton is reported to the state at certain intervals, 545 days was chosen since it will have plenty of wells reported. Due to the high cost and for return on investment the standard significance level of 0.05 would be to great so a 0.01 was used. A comparison of the three fluid designs was conducted using the Mann-Whittney U Test. First, was to compare the wins for each fluid system then using scipy to calculate the p-value. Due to the multiple comparisons, the Bonferroni Correction was applied for a new alpha of 0.003.
 <br/>
 <br/>
 
@@ -66,7 +65,7 @@ Due to the high cost and for return on investment the standard significance leve
 |--------------------|-----------------------|-----------------------|------------------------|----------------|----------------------|
 | Slickwater Wins    | 8154753.5             | Slickwater Wins       | 2176643                | Gel Wins       | 1124037.5            |
 | Gel Wins           | 4977533.5             | Hybrid Wins           | 2833288                | Hybrid Wins    | 2445815.5            |
-| p-value            | 3.54x10<sup>-70</sup> | p-value               | 6.15x10<sup>-12</sup> | p-value        | 1.6x10<sup>-77</sup> |
+| p-value            | 3.54x10<sup>-70</sup> | p-value               | 6.15x10<sup>-12</sup>  | p-value        | 1.6x10<sup>-77</sup> |
 
 
 ### Niobrara
@@ -91,4 +90,4 @@ Due to the high cost and for return on investment the standard significance leve
 
 ## Conclusion
 
-Overall the Gel fluid system performs the weakest compared to Slickwater and Hybrid fluid system. On the other hand, Hybrid outperforms Slickwater in some cases but due to the higher cost of utilizing a Hybrid fluid system it may not be a cost an operator would endeavor. 
+Overall the Gel fluid system has the worst production compared to Slickwater and Hybrid fluid system. On the other hand, Hybrid outperforms Slickwater in some cases but due to the higher cost of utilizing a Hybrid fluid system it may not be a cost an operator would endeavor. Moreover, a Hybrid system may be using more proppant than a Slickwater because a Hybrid system can carry a high concentration of proppant. 
