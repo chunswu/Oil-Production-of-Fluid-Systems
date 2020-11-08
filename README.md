@@ -1,4 +1,8 @@
-<div align="center"><img src="images/dj_layers.png"></div>
+<div align="center">
+
+![](images/dj_layers.png)
+
+</div>
 
 # Oil Production of Fluid Systems
 
