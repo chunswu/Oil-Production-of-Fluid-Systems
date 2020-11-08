@@ -1,6 +1,5 @@
+<div align="center"><img src="images/dj_layers.png"></div>
 # Oil Production of Fluid Systems
-
-------------------------
 
 ## Background and Motivation
 
@@ -21,6 +20,8 @@ They're three commonly used fluid systems, Slickwater, Gel, and Hybrid. Slickwat
 ## The Data
 
 Reached out to former colleagues for well information in the Denver-Julesburg Basin (DJ Basin). Received a redacted Excel file where internal data has been removed. Converted the Excel file to a CSV format for Exploratory Data Analysis (EDA). The data had 219 columns and 9974 rows of oil wells. Spark was used to clean the data and run SQL queries to help along with the data cleaning process.
+
+
 <div align="center">
 
 ![image](images/columns.png)
