@@ -1,5 +1,3 @@
-![](images/dj_layers.png)
-
 # Oil Production of Fluid Systems
 
 ## Background and Motivation
