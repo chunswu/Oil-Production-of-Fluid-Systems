@@ -18,13 +18,18 @@ They're three commonly used fluid systems, Slickwater, Gel, and Hybrid. Slickwat
 
 ## The Data
 
-Reached out to former colleagues for well information in the Denver-Julesburg Basin (DJ Basin). Received a redacted Excel file where internal data has been removed. Converted the Excel file to a CSV format for Exploratory Data Analysis (EDA). The data had 219 columns and 9974 rows of oil wells. Spark was used to clean the data and run SQL queries to help along with the data cleaning process.
+Reached out to former colleagues for well information in the Denver-Julesburg Basin (DJ Basin). Received a redacted Excel file where internal data has been removed. Converted the Excel file to a CSV format for Exploratory Data Analysis (EDA). The data had 219 columns and 9974 rows of oil wells. Spark was used to clean the data and run SQL queries to help along with the data cleaning process. Narrowed down the columns to a few selected for further analysis.
 
+| Well Information  | Proppant      | Production    |                |
+|-------------------|---------------|---------------|----------------|
+| Formation         | TotalProppant | Prod30DayOil  | Prod545DayOil  |
+| API               |               | Prod60DayOil  | Prod730DayOil  |
+| Latitude          |               | Prod90DayOil  | Prod1095DayOil |
+| Longitude         |               | Prod180DayOil | Prod1460DayOil |
+| State             |               | Prod365DayOil | Prod1825DayOil |
 
-<div align="center">
+<br><br>
 
-![image](images/columns.png)
-</div>
 Processed the data to only have wells in Colorado and removed any wells in Wyoming. Mapped out the latitudes and longitudes of the data over a map.
 <div align="center">
 
