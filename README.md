@@ -1,3 +1,5 @@
+<div align="center"><img src="images/title_image.jpg"/></div>
+
 # Oil Production of Fluid Systems
 
 ## Background and Motivation
